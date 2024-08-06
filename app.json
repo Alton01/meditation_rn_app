@@ -5,7 +5,7 @@
     "scheme": "meditation",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/simpleMeditationLogo.png",
+    "icon": "./assets/meditation.png",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/simpleMeditationLogo.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.alton123.meditation"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9286f1ea-1533-48e5-8259-9828ed6ee399"
+      }
     }
   }
 }
